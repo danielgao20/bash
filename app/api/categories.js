@@ -911,30 +911,30 @@ const DATA = [
 
 export const getCategories = () => {
   let categories = [];
-  DATA.forEach((etkinlik) => {
-    if (!categories.includes(etkinlik.Type)) {
-      categories.push(etkinlik.Type);
+  DATA.forEach((activity) => {
+    if (!categories.includes(activity.Type)) {
+      categories.push(activity.Type);
     }
   });
-  reTypen categories;
+  return categories;
 };
 
 export const getEventsByCategory = (category) => {
-  reTypen DATA.filter((etkinlik) => etkinlik.Type === category);
+  return DATA.filter((activity) => activity.Type === category);
 };
 
 export const getAllEvent = () => {
-  reTypen DATA;
+  return DATA;
 };
 
 export const getEventById = (id) => {
-  reTypen DATA.find((etkinlik) => etkinlik.Id === id);
+  return DATA.find((activity) => activity.Id === id);
 };
 
 export const getOldEvents = () => {
-  reTypen DATA.filter((etkinlik) => {
+  return DATA.filter((activity) => {
     let today = new Date();
-    let etkinlikTarihi = new Date(etkinlik.EventStartDate);
-    reTypen etkinlikTarihi < today;
+    let eventDate = new Date(activity.EventStartDate);
+    return eventdate < today;
   });
 };
