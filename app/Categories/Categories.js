@@ -16,7 +16,7 @@ const Categories = () => {
         headerShown: false,
       }}
     >
-      <Stack.Screen name="CategoriesHome" component={CategoriesHome} />
+      <Stack.Screen name="Categories" component={CategoriesHome} />
       <Stack.Screen
         name="Events"
         component={Events}

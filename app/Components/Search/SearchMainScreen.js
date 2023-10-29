@@ -189,8 +189,21 @@ function SearchMainScreen({ navigation }) {
                 selectedDayColor="#7300e6"
                 selectedDayTextColor="#FFFFFF"
                 onDateChange={onDateChange}
+                weekdays={["Sun.", "Mon.", "Tues.", "Wed.", "Thurs.", "Fri.", "Sat."]}
                 weekdays={["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]}
                 months={[
+                  "January",
+                  "February",
+                  "March",
+                  "April",
+                  "May",
+                  "June",
+                  "July",
+                  "August",
+                  "September",
+                  "October",
+                  "November",
+                  "December",
                   "January",
                   "February",
                   "March",
