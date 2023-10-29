@@ -28,19 +28,19 @@ const EventsList = ({ data, title, navigation }) => {
                 <Card
                   key={item.Id}
                   title={
-                    item.Adi.length > 20
-                      ? item.Adi.slice(0, 20) + "..."
-                      : item.Adi
+                    item.Name.length > 20
+                      ? item.Name.slice(0, 20) + "..."
+                      : item.Name
                   }
                   location={
-                    item.EtkinlikMerkezi.length > 20
-                      ? item?.EtkinlikMerkezi.slice(0, 20) + "..."
-                      : item?.EtkinlikMerkezi
+                    item.Location.length > 20
+                      ? item?.Location.slice(0, 20) + "..."
+                      : item?.Location
                   }
-                  date={item.EtkinlikBaslamaTarihi.toString().split("T")[0]}
-                  price={item.UcretsizMi}
+                  date={item.EventStartDate.toString().split("T")[0]}
+                  price={item.FreeEvent}
                   id={item.Id}
-                  eventImage={item.KucukAfis}
+                  eventImage={item.Picture}
                   navigation={navigation}
                 />
               )}

@@ -33,25 +33,25 @@ function CategoriesElement({ title, navigation }) {
             style={styles.categoriesCardContentImg}
           />
         )}
-        {title === "KONSER" && (
+        {title === "CONCERT" && (
           <Image
             source={require("../../../assets/sing.png")}
             style={styles.categoriesCardContentImg}
           />
         )}
-        {title === "SERGİ" && (
+        {title === "EXHIBITION" && (
           <Image
             source={require("../../../assets/sergi.png")}
             style={styles.categoriesCardContentImg}
           />
         )}
-        {title === "TİYATRO" && (
+        {title === "THEATRE" && (
           <Image
             source={require("../../../assets/tiyatro.png")}
             style={styles.categoriesCardContentImg}
           />
         )}
-        {title === "SPORTIF" && (
+        {title === "SPORTS" && (
           <Image
             source={require("../../../assets/sports.png")}
             style={styles.categoriesCardContentImg}

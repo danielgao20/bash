@@ -21,7 +21,7 @@ const DATA = [
     Artist: "Eren Demir",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 52601,
     Name: "Klasik Komedi: Bir Delinin Hatıra Defteri",
     EventEndDate: "2023-10-20T21:30:00",
@@ -42,7 +42,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 52612,
     Name: "Ritim Akşamları: Latin Dans Partisi",
     EventEndDate: "2023-10-25T00:00:00",
@@ -63,7 +63,7 @@ const DATA = [
     Artist: "Ritmo Latino Dans Grubu",
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 5262,
     Name: "Doğanın İzinde: Doğa Fotoğrafçılığı Sergisi",
     EventEndDate: "2023-10-28T17:00:00",
@@ -85,7 +85,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 5250,
     Name: "Sinema Benim Aşkım - Türkan Soray Kostüm ve Afiş Sergisi",
     EventEndDate: "2023-09-17T17:30:00",
@@ -107,7 +107,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5251,
     Name: "Caz Gecesi: En İyi Caz Performansları",
     EventEndDate: "2023-09-20T23:00:00",
@@ -129,7 +129,7 @@ const DATA = [
     Artist: "Müge Ersoy",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 5252,
     Name: "Komedi Şöleni: Gülme Garantili Komedi Oyunları",
     EventEndDate: "2023-09-25T22:00:00",
@@ -151,7 +151,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 5253,
     Name: "Rönesans Rüzgarları: Ressamların Büyülü Dünyası",
     EventEndDate: "2023-09-30T18:00:00",
@@ -171,7 +171,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5254,
     Name: "Rock Gecesi: Efsane Rock Gruplarından Seçkiler",
     EventEndDate: "2023-10-05T23:30:00",
@@ -193,7 +193,7 @@ const DATA = [
     Artist: "Black Roses",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 5255,
     Name: "Dramatik Yolculuklar: Duygusal Tiyatro Gecesi",
     EventEndDate: "2023-10-10T21:30:00",
@@ -215,7 +215,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 5256,
     Name: "Modern Sanatın İzinde: Soyut Tablolar Sergisi",
     EventEndDate: "2023-10-15T19:30:00",
@@ -237,13 +237,13 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5257,
     Name: "Klasik Akustik: En Sevilen Klasik Eseler",
     EventEndDate: "2023-10-18T22:00:00",
     Image:
       "https://www.kku.edu.tr/Content/Anasayfa/Haber/NewFolder/gitar3.jpg",
-    Location: "Harmony Konser Salonu",
+    Location: "Harmony CONCERT Salonu",
     GeographicLocation: {
       Latitude: 41.0102,
       Longitude: 28.9721,
@@ -258,7 +258,7 @@ const DATA = [
     Artist: "Emre Aydın",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 5258,
     Name: "Gizemli Sahneler: Polisiye Tiyatro Gösterisi",
     EventEndDate: "2023-10-22T20:30:00",
@@ -280,7 +280,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 52592,
     Name: "Fotoğrafın İzinde: Anıların Peşinde",
     EventEndDate: "2023-10-27T16:30:00",
@@ -302,7 +302,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 52605,
     Name: "Jazz Gecesi: Akşamın Keyifli Notaları",
     EventEndDate: "2023-11-05T23:00:00",
@@ -322,7 +322,7 @@ const DATA = [
     Artist: "Melis Sarp",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 52651,
     Name: "Komedi Rüzgarları: Gülme Krizine Davet",
     EventEndDate: "2023-11-10T22:00:00",
@@ -344,13 +344,13 @@ const DATA = [
     Artist: "Komedi Guruları Ekibi",
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5263,
     Name: "Pop Akustik: En İyi Yabancı Pop Şarkılar",
     EventEndDate: "2023-11-20T21:00:00",
     Image:
       "https://imgs.alem.com.tr/Documents/Alem_Dergi/images/2022/12/02/aralik-2022-konserleri-667.jpg",
-    Location: "SoundUp Konser Salonu",
+    Location: "SoundUp CONCERT Salonu",
     GeographicLocation: {
       Latitude: 41.0056,
       Longitude: 28.985,
@@ -366,7 +366,7 @@ const DATA = [
     Artist: "Dilara Oruç",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 5264,
     Name: "Klasikler Sahnesi: Shakespeare Oyunları Gecesi",
     EventEndDate: "2023-11-25T23:30:00",
@@ -388,7 +388,7 @@ const DATA = [
     Artist: "Klasik Tiyatro Topluluğu",
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 52265,
     Name: "Renk İçinde Dans: Modern Sanat Sergisi",
     EventEndDate: "2023-12-05T19:30:00",
@@ -410,19 +410,19 @@ const DATA = [
     Artist: "Modern Sanatçılar Derneği",
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5266,
     Name: "Akustik Gitarın Büyülü Dünyası",
     EventEndDate: "2023-12-10T22:30:00",
     Image:
       "https://muzik.iksv.org/i/content/10058_1_PH_aliguler__(1_of_1)-22.jpg",
-    Location: "Harmony Konser Salonu",
+    Location: "Harmony CONCERT Salonu",
     GeographicLocation: {
       Latitude: 40.9937,
       Longitude: 29.0237,
     },
     Description:
-      "Akustik gitarın nağmeleriyle dolu sıcacık bir konser gecesi.",
+      "Akustik gitarın nağmeleriyle dolu sıcacık bir CONCERT gecesi.",
     TicketLink: "https://orneklink.com/bilet17",
     FreeEvent: false,
     Picture:
@@ -432,7 +432,7 @@ const DATA = [
     Artist: "Ege Yılmaz",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 5267,
     Name: "Gizemli Yolculuk: Interaktif Tiyatro Deneyimi",
     EventEndDate: "2023-12-15T21:45:00",
@@ -454,7 +454,7 @@ const DATA = [
     Artist: "Interaktif Tiyatro Ekibi",
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 5268,
     Name: "Işığın İzinde: Fotoğrafçılık Sergisi",
     EventEndDate: "2023-12-20T20:30:00",
@@ -476,7 +476,7 @@ const DATA = [
     Artist: "Fotoğraf Sanatçıları Grubu",
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5269,
     Name: "Rock Efsaneleri Canlı: Unutulmaz Hits",
     EventEndDate: "2023-12-25T23:59:00",
@@ -488,7 +488,7 @@ const DATA = [
       Longitude: 29.0231,
     },
     Description:
-      "Rock müziğin efsanevi şarkılarına doyacağınız muhteşem bir konser serisi.",
+      "Rock müziğin efsanevi şarkılarına doyacağınız muhteşem bir CONCERT serisi.",
     TicketLink: "https://orneklink.com/bilet20",
     FreeEvent: false,
     Picture: "https://www.radyoodtu.com.tr/images/zbam/progresifmuzik_211219.jpg",
@@ -497,7 +497,7 @@ const DATA = [
     Artist: "RockStar Tribute Band",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 5270,
     Name: "Romeo ve Juliet: Modern Yorum",
     EventEndDate: "2024-01-05T22:00:00",
@@ -519,7 +519,7 @@ const DATA = [
     Artist: "Genç Sahne Oyuncuları",
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5271,
     Name: "Cazın Büyülü Dünyası: Geceyarısı Sesi",
     EventEndDate: "2024-01-10T23:00:00",
@@ -531,7 +531,7 @@ const DATA = [
       Longitude: 29.0126,
     },
     Description:
-      "Cazın büyülü ritimleriyle geçecek unutulmaz bir konser deneyimi.",
+      "Cazın büyülü ritimleriyle geçecek unutulmaz bir CONCERT deneyimi.",
     TicketLink: "https://orneklink.com/bilet22",
     FreeEvent: false,
     Picture:
@@ -541,7 +541,7 @@ const DATA = [
     Artist: "Jazz Delisi Orkestrası",
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 5272,
     Name: "Geleceğin İzleri: Dijital Sanat Sergisi",
     EventEndDate: "2024-01-15T18:30:00",
@@ -563,13 +563,13 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5273,
     Name: "Sinfonietta Akşamları: Beethoven'in İzinde",
     EventEndDate: "2024-01-20T21:30:00",
     Image:
       "https://www.beyazhaberajansi.com/images/haberler/2023/07/idil-biret-muzik-festivali-7-temmuz-da-basliyor-8844.jpg",
-    Location: "Devlet Senfoni Orkestrası Konser Salonu",
+    Location: "Devlet Senfoni Orkestrası CONCERT Salonu",
     GeographicLocation: {
       Latitude: 40.9879,
       Longitude: 29.0258,
@@ -585,7 +585,7 @@ const DATA = [
     Artist: "Devlet Senfoni Orkestrası",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 5274,
     Name: "Büyülü Orman: Çocuk Tiyatro Gösterisi",
     EventEndDate: "2024-01-25T17:00:00",
@@ -607,7 +607,7 @@ const DATA = [
     Artist: "Çocuk Tiyatrosu Topluluğu",
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 5275,
     Name: "Renk Şöleni: Modern Sanatın İzinde",
     EventEndDate: "2024-02-01T20:00:00",
@@ -629,7 +629,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5276,
     Name: "Akustik Geceler: Unplugged Performanslar",
     EventEndDate: "2024-02-05T23:30:00",
@@ -651,7 +651,7 @@ const DATA = [
     Artist: "Çeşitli Sanatçılar",
   },
   {
-    Type: "TİYATRO",
+    Type: "THEATRE",
     Id: 5277,
     Name: "Komedi Manzaraları: Gülmek Garanti",
     EventEndDate: "2024-02-10T21:30:00",
@@ -671,7 +671,7 @@ const DATA = [
     Artist: "Komedi Guruları Topluluğu",
   },
   {
-    Type: "SERGİ",
+    Type: "EXHIBITION",
     Id: 5278,
     Name: "Rüya Gibi Fotoğraflar: Anı Yakalama Sanatı",
     EventEndDate: "2024-02-15T19:30:00",
@@ -693,7 +693,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "KONSER",
+    Type: "CONCERT",
     Id: 5279,
     Name: "Dünya Ritmileri Gecesi",
     EventEndDate: "2024-02-20T22:30:00",
@@ -705,7 +705,7 @@ const DATA = [
       Longitude: 28.9827,
     },
     Description:
-      "Farklı ülkelerden geleneksel ritimlerin harmanlandığı eşsiz bir konser deneyimi.",
+      "Farklı ülkelerden geleneksel ritimlerin harmanlandığı eşsiz bir CONCERT deneyimi.",
     TicketLink: "https://orneklink.com/bilet30",
     FreeEvent: false,
     Picture:
@@ -767,7 +767,7 @@ const DATA = [
     Artist: null,
   },
   {
-    Type: "SPORTIF",
+    Type: "SPORTS",
     Id: 5382,
     Name: "Yoga ve Meditasyon Workshop",
     EventEndDate: "2023-09-08T19:30:00",
@@ -852,9 +852,9 @@ const DATA = [
     },
   },
 
-  // SPORTIF türündeki etkinlikler
+  // SPORTS türündeki etkinlikler
   {
-    Type: "SPORTIF",
+    Type: "SPORTS",
     Id: 5409,
     Name: "Bisiklet Typeu",
     EventEndDate: "2023-09-09T12:00:00",
@@ -875,7 +875,7 @@ const DATA = [
     },
   },
   {
-    Type: "SPORTIF",
+    Type: "SPORTS",
     Id: 5410,
     Name: "Tenis Typenuvası",
     EventEndDate: "2023-09-12T17:30:00",

@@ -59,17 +59,17 @@ function SearchMainScreen({ navigation }) {
     if (selectedStartDate === "YYYY-MM-DD") return;
     if (selectedEndDate === "YYYY-MM-DD") {
       const filteredWithStartDateEvents = events.filter((event) => {
-        if (event.EtkinlikBaslamaTarihi === undefined) return false;
+        if (event.EventStartDate === undefined) return false;
 
-        const date = event.EtkinlikBaslamaTarihi.split("T")[0];
+        const date = event.EventStartDate.split("T")[0];
         return date >= selectedStartDate;
       });
       setFilteredEvents(filteredWithStartDateEvents);
     }
     const filteredWithDateEvents = events.filter((event) => {
-      if (event.EtkinlikBaslamaTarihi === undefined) return false;
+      if (event.EventStartDate === undefined) return false;
 
-      const date = event.EtkinlikBaslamaTarihi.split("T")[0];
+      const date = event.EventStartDate.split("T")[0];
       return date >= selectedStartDate && date <= selectedEndDate;
     });
     setFilteredEvents(filteredWithDateEvents);
@@ -80,13 +80,13 @@ function SearchMainScreen({ navigation }) {
     setSearchText(text);
     if (selectedStartDate == "YYYY-MM-DD") {
       const filtredWithText = events.filter((event) => {
-        return event.Adi.toLowerCase().includes(text.toLowerCase());
+        return event.Name.toLowerCase().includes(text.toLowerCase());
       });
       setSearchResults(filtredWithText);
       setLastResultsEvents(filtredWithText, ...filtredWithText);
     } else {
       const filteredEventsWithDateAndText = filteredEvents.filter((event) => {
-        return event.Adi.toLowerCase().includes(text.toLowerCase());
+        return event.Name.toLowerCase().includes(text.toLowerCase());
       });
       setSearchResults(filteredEventsWithDateAndText);
       setLastResultsEvents(filteredEventsWithDateAndText, ...filteredEvents);
@@ -130,13 +130,13 @@ function SearchMainScreen({ navigation }) {
           }
           renderItem={({ item }) => (
             <SearchCard
-              title={item.Adi}
-              date={item.EtkinlikBaslamaTarihi}
-              location={item.EtkinlikMerkezi}
-              image={item.KucukAfis}
+              title={item.Name}
+              date={item.EventStartDate}
+              location={item.Location}
+              image={item.Picture}
               onPress={() => {
                 navigation.navigate("EventDetail", {
-                  title: item.Adi,
+                  title: item.Name,
                   id: item.Id,
                 });
               }}
@@ -189,23 +189,23 @@ function SearchMainScreen({ navigation }) {
                 selectedDayColor="#7300e6"
                 selectedDayTextColor="#FFFFFF"
                 onDateChange={onDateChange}
-                weekdays={["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"]}
+                weekdays={["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]}
                 months={[
-                  "Ocak",
-                  "Şubat",
-                  "Mart",
-                  "Nisan",
-                  "Mayıs",
-                  "Haziran",
-                  "Temmuz",
-                  "Ağustos",
-                  "Eylül",
-                  "Ekim",
-                  "Kasım",
-                  "Aralık",
+                  "January",
+                  "February",
+                  "March",
+                  "April",
+                  "May",
+                  "June",
+                  "July",
+                  "August",
+                  "September",
+                  "October",
+                  "November",
+                  "December",
                 ]}
-                previousTitle="Geri"
-                nextTitle="İleri"
+                previousTitle="Back"
+                nextTitle="Forward"
                 width={350}
               />
             </View>

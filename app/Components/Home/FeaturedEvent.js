@@ -3,7 +3,7 @@ import { Image, Text, View } from "react-native";
 import { styles } from "../../Home/homecss";
 
 function FeaturedEvent({ data }) {
-  const { Adi, KucukAfis, EtkinlikBaslamaTarihi } = data;
+  const { Name, Picture, EventStartDate } = data;
   return (
     <View style={styles.featuredEvent}>
       <View
@@ -15,8 +15,8 @@ function FeaturedEvent({ data }) {
       >
         <Image
           source={
-            KucukAfis
-              ? { uri: KucukAfis }
+            Picture
+              ? { uri: Picture }
               : require("../../../assets/featured.png")
           }
           style={{
@@ -27,12 +27,12 @@ function FeaturedEvent({ data }) {
         />
         <View style={styles.eventInfoCard}>
           <Text style={styles.textsHeader}>
-            {Adi != "" ? Adi : "Music of the Spheres"}
+            {Name != "" ? Name : "Music of the Spheres"}
           </Text>
           <Text style={styles.texts}>
             Event Date:{" "}
-            {EtkinlikBaslamaTarihi != ""
-              ? EtkinlikBaslamaTarihi.split("T")[0]
+            {EventStartDate != ""
+              ? EventStartDate.split("T")[0]
                   .split("-")
                   .reverse()
                   .join(" ")
@@ -40,10 +40,10 @@ function FeaturedEvent({ data }) {
           </Text>
           <Text style={styles.texts}>
             Event Time:{" "}
-            {EtkinlikBaslamaTarihi != ""
-              ? EtkinlikBaslamaTarihi.split("T")[1].split(":")[0] +
+            {EventStartDate != ""
+              ? EventStartDate.split("T")[1].split(":")[0] +
                 ":" +
-                EtkinlikBaslamaTarihi.split("T")[1].split(":")[1]
+                EventStartDate.split("T")[1].split(":")[1]
               : "20:00"}{" "}
           </Text>
         </View>
