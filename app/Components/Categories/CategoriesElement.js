@@ -57,7 +57,7 @@ function CategoriesElement({ title, navigation }) {
             style={styles.categoriesCardContentImg}
           />
         )}
-        {title === "TALKSHOW" && (
+        {title === "BASHES" && (
           <Image
             source={require("../../../assets/talkshow.png")}
             style={{

@@ -105,6 +105,15 @@ const DATA = [
     EventURL: "sinema-benim-askim-Typekan-soray-kostum-ve-afis-sergisi",
     EventStartDate: "2023-08-16T09:30:00",
     Artist: null,
+    KisaAciklama:
+      "Kara Walker’s powerful and provocative images that employ contradictions to critique the painful legacies of slavery, sexism, violence, imperialism, and other power structures, including those in the history and hierarchies of art and contemporary culture.",
+    BiletSatisLinki: null,
+    UcretsizMi: true,
+    Resim:
+      "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Kucuk/20230814_143640_etkinlik.jpg",
+    EtkinlikUrl: "sinema-benim-askim-turkan-soray-kostum-ve-afis-sergisi",
+    EtkinlikBaslamaTarihi: "2023-08-16T09:30:00",
+    Sanatci: null,
   },
   {
     Type: "CONCERT",
@@ -751,7 +760,7 @@ const DATA = [
     Artist: "Sanatçı C, Sanatçı D",
   },
   {
-    Type: "TALKSHOW",
+    Type: "BASH",
     Id: 5381,
     Name: "Bilim ve Gelecek Paneli",
     EventEndDate: "2023-09-10T21:00:00",
@@ -768,6 +777,7 @@ const DATA = [
   },
   {
     Type: "SPORTS",
+    Tur: "SPORT",
     Id: 5382,
     Name: "Yoga ve Meditasyon Workshop",
     EventEndDate: "2023-09-08T19:30:00",
@@ -808,15 +818,15 @@ const DATA = [
 
   // TALKSHOW türündeki etkinlikler
   {
-    Type: "TALKSHOW",
+    Type: "BASH",
     Id: 5407,
-    Name: "Psikoloji Sohbetleri",
+    Name: "CASA-A Night to Dismember",
     EventEndDate: "2023-09-12T20:30:00",
     Image:
       "https://istanbulgazetesicomtr.teimg.com/crop/1280x720/istanbulgazetesi-com-tr/images/haberler/2022/12/bagimlilikla_mucadelede_ailelere_ve_okullara_buyuk_is_dusuyor_h84932_a7517.jpg",
     Location: "Kültür Merkezi",
     Description:
-      "Ruh sağlığı ve psikoloji alanında uzmanların katılacağı interaktif bir sohbet.",
+      "A night of horror and gore with the best of music from DJ Alex Han.",
     TicketLink: "https://example.com/psikoloji-sohbetleri-biletleri",
     FreeEvent: false,
     Picture:
@@ -830,7 +840,7 @@ const DATA = [
     },
   },
   {
-    Type: "TALKSHOW",
+    Type: "BASH",
     Id: 5408,
     Name: "Teknoloji Sohbetleri",
     EventEndDate: "2023-09-06T19:00:00",
@@ -880,8 +890,11 @@ const DATA = [
     Name: "Tenis Typenuvası",
     EventEndDate: "2023-09-12T17:30:00",
     Image:
+    Adi: "Intramural Basketball",
+    EtkinlikBitisTarihi: "2023-09-12T17:30:00",
+    KucukAfis:
       "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/46000/46340.jpg",
-    Location: "Tenis Kulübü",
+    Location: "Lyons Gym Center",
     Description: "Heyecan dolu bir tenis Typenuvası ve rekabet dolu maçlar.",
     TicketLink: "https://example.com/tenis-Typenuvasi-biletleri",
     FreeEvent: false,
@@ -890,8 +903,8 @@ const DATA = [
     EventStartDate: "2023-09-12T14:00:00",
     Artist: null,
     GeographicLocation: {
-      Latitude: 51.1657,
-      Longitude: 10.4515,
+      Latitude: 34.0224,
+      Longitude: 118.2851,
     },
   },
 ];
